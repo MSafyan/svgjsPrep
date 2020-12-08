@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="./main.css" />
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/3.0.16/svg.min.js"
+			integrity="sha512-p3Tp2zn+wApBreZCgRkmMwnfpN8MUPXzzOihXx7iGYXqE7t6m9drY8HeyMeeFuDWiTFKrGUrq3jpbT0vX6zY/Q=="
+			crossorigin="anonymous"
+		></script>
+		<script src="https://cdn.jsdelivr.net/npm/@svgdotjs/svg.js@3.0/dist/svg.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@svgdotjs/svg.draggable.js"></script>
+	</head>
+	<body>
+		<p>
+			<strong>Click</strong> the <strong>button</strong> below to attach a line
+			between two SVGs and both Icons are <strong>Draggable</strong>.
+		</p>
+		<button id="myBtn">Link / Unlink</button>
+
+		<div id="workArea">
+			<div id="sidebar"></div>
+			<div id="create"></div>
+		</div>
+		<!-- <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="smallGrid" width="8" height="8" patternUnits="userSpaceOnUse">
+      <path d="M 8 0 L 0 0 0 8" fill="none" stroke="gray" stroke-width="0.5"/>
+    </pattern>
+    <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
+      <rect width="80" height="80" fill="url(#smallGrid)"/>
+      <path d="M 80 0 L 0 0 0 80" fill="none" stroke="gray" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="100%" height="100%" fill="url(#grid)" />
+</svg> -->
+		<script src="./index.js"></script>
+		<script src="./iconS.js"></script>
+		<script src="./sidebarS.js"></script>
+		<script src="./lineS.js"></script>
+	</body>
+</html>

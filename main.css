@@ -1,0 +1,36 @@
+#myBtn {
+	background-color: #555;
+	/* Green */
+	border: none;
+	color: #eee;
+	transition-duration: 0.4s;
+	padding: 0.7rem 1.4rem;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 12px;
+}
+#myBtn:hover {
+	cursor: pointer;
+	background-color: #edc502; /* Green */
+	color: #333;
+}
+
+#create {
+	border-style: solid;
+	height: 800px;
+	width: 1200px;
+}
+#sidebar {
+	height: 50rem;
+	width: 20rem;
+	background-color: rgb(202, 202, 202);
+	margin-right: 1rem;
+	border-right: #333;
+	padding: 1rem;
+}
+#workArea {
+	display: flex;
+	padding: 1rem;
+}
